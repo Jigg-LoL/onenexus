@@ -1,4 +1,4 @@
-getGameIds <- function(region=c("NA","EU","KR","CN"),week="all") {
+getGameIds <- function(region=c("NA","EU","KR","CN"),week="all",team="all") {
   idList<-c()
   for (r in 1:length(region)) {
     if (week=="all") {
@@ -14,6 +14,11 @@ getGameIds <- function(region=c("NA","EU","KR","CN"),week="all") {
         idList<-c(idList,wIds)
       }
     }
+  }
+  if (team!="all") {
+    source('tools/getGameSummary.R')
+    gs<-getGameSummary(idList)
+    idList<-as.character(gs$gameId[gs$blueTeam==team | gs$redTeam==team])
   }
   return(idList)
 }

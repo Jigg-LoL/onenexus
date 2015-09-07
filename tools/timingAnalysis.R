@@ -64,4 +64,8 @@ timingAnalysis <- function(gameId) {
       }
     }
   }
+  timeFrame<-data.frame(blueFirstBloodTime=blueFirstBloodTime,redFirstBloodTime=redFirstBloodTime,blueFirstTowerTime=blueFirstTowerTime,
+                        redFirstTowerTime=redFirstTowerTime,blueFirstDragTime=blueFirstDragTime,redFirstDragTime=redFirstDragTime,
+                        blueFirstBaronTime=blueFirstBaronTime,redFirstBaronTime=redFirstBaronTime,blueFirstInhibTime=blueFirstInhibTime,
+                        redFirstInhibTime=redFirstInhibTime)
 }
