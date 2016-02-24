@@ -14,7 +14,7 @@ getGameDetails <- function(gameId) {
                     goldDiffAtTwenty=NULL)
   
   for (i in 1:10) {
-    name<-strsplit(gameData$participantIdentities$player$summonerName[i]," ")[[1]][-1]
+    name<-gsub("^[A-z0-9]+ ","",gameData$participantIdentities$player$summonerName[i])
     champion<-getChampName(gameData$participants$championId[i])
     kills<-gameData$participants$stats$kills[i]
     deaths<-gameData$participants$stats$deaths[i]

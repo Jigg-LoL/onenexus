@@ -1,8 +1,1 @@
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/340607?gameHash=982e07ef018b8bdd&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350596?gameHash=cb71c31fe610fddc&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350597?gameHash=e2850af36dc39ab9&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350641?gameHash=1c66347ab7955a87&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350643?gameHash=a212603d42a1a39c&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350645?gameHash=f74db8b4d0a14276&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350649?gameHash=d02eb3ebc18e577b&tab=overview
-http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/350655?gameHash=b04aa0f89b1c2d75&tab=overview
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRLH1/1001520070?gameHash=e5a089b1818d40b0&tab=overview
